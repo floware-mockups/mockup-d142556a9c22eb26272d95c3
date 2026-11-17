@@ -1,0 +1,215 @@
+{
+  "title": "Agenda culturale e iscrizioni",
+  "description": "Gestione degli eventi culturali della biblioteca, delle iscrizioni e dei posti disponibili, con dati di prova interamente inventati.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "panoramica",
+      "title": "Panoramica",
+      "description": "Riepilogo dell’agenda e della capienza degli eventi in programma.",
+      "metrics": [
+        {
+          "label": "Eventi in programma",
+          "value": "12"
+        },
+        {
+          "label": "Iscrizioni registrate",
+          "value": "186"
+        },
+        {
+          "label": "Posti ancora disponibili",
+          "value": "74"
+        },
+        {
+          "label": "Eventi al completo",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Evento",
+        "Data",
+        "Luogo",
+        "Capienza",
+        "Iscritti",
+        "Posti rimasti"
+      ],
+      "rows": [
+        [
+          "Letture al chiaro di luna",
+          "12/06/2026",
+          "Sala Lumo",
+          "24",
+          "18",
+          "6"
+        ],
+        [
+          "Laboratorio di storie piegate",
+          "14/06/2026",
+          "Atelier Vela",
+          "16",
+          "16",
+          "0"
+        ],
+        [
+          "Incontro con Nubi narranti",
+          "18/06/2026",
+          "Sala Lumo",
+          "30",
+          "22",
+          "8"
+        ],
+        [
+          "Piccolo teatro delle ombre",
+          "20/06/2026",
+          "Spazio Brina",
+          "20",
+          "13",
+          "7"
+        ],
+        [
+          "Mappe per viaggi immaginari",
+          "23/06/2026",
+          "Atelier Vela",
+          "18",
+          "9",
+          "9"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "eventi",
+      "title": "Eventi",
+      "description": "Consulta e filtra gli eventi per titolo, data, luogo o disponibilità; il form consente di aggiungere un evento.",
+      "metrics": [
+        {
+          "label": "Eventi attivi",
+          "value": "12"
+        },
+        {
+          "label": "Posti totali",
+          "value": "260"
+        }
+      ],
+      "columns": [
+        "Evento",
+        "Data",
+        "Luogo",
+        "Capienza",
+        "Iscritti",
+        "Posti rimasti"
+      ],
+      "rows": [
+        [
+          "Letture al chiaro di luna",
+          "12/06/2026",
+          "Sala Lumo",
+          "24",
+          "18",
+          "6"
+        ],
+        [
+          "Laboratorio di storie piegate",
+          "14/06/2026",
+          "Atelier Vela",
+          "16",
+          "16",
+          "0"
+        ],
+        [
+          "Incontro con Nubi narranti",
+          "18/06/2026",
+          "Sala Lumo",
+          "30",
+          "22",
+          "8"
+        ],
+        [
+          "Piccolo teatro delle ombre",
+          "20/06/2026",
+          "Spazio Brina",
+          "20",
+          "13",
+          "7"
+        ],
+        [
+          "Mappe per viaggi immaginari",
+          "23/06/2026",
+          "Atelier Vela",
+          "18",
+          "9",
+          "9"
+        ]
+      ],
+      "form": [
+        "Evento",
+        "Data",
+        "Luogo",
+        "Capienza"
+      ]
+    },
+    {
+      "id": "iscrizioni",
+      "title": "Iscrizioni",
+      "description": "Cerca e filtra le iscrizioni per partecipante, evento e stato; registra nuove adesioni con dati di fantasia.",
+      "metrics": [
+        {
+          "label": "Iscrizioni attive",
+          "value": "186"
+        },
+        {
+          "label": "In attesa",
+          "value": "8"
+        },
+        {
+          "label": "Posti disponibili",
+          "value": "74"
+        }
+      ],
+      "columns": [
+        "Partecipante",
+        "Evento",
+        "Data iscrizione",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Mira Lume",
+          "Letture al chiaro di luna",
+          "02/06/2026",
+          "Confermata"
+        ],
+        [
+          "Timo Vela",
+          "Laboratorio di storie piegate",
+          "03/06/2026",
+          "Confermata"
+        ],
+        [
+          "Neri Nubi",
+          "Incontro con Nubi narranti",
+          "04/06/2026",
+          "Confermata"
+        ],
+        [
+          "Sira Brina",
+          "Piccolo teatro delle ombre",
+          "05/06/2026",
+          "In attesa"
+        ],
+        [
+          "Lio Rugiada",
+          "Mappe per viaggi immaginari",
+          "06/06/2026",
+          "Confermata"
+        ]
+      ],
+      "form": [
+        "Partecipante",
+        "Evento",
+        "Data iscrizione",
+        "Stato"
+      ]
+    }
+  ]
+}
